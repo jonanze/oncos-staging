@@ -1,6 +1,6 @@
 {
-  "name": "Cancer Staging",
-  "short_name": "Staging",
+  "name": "OncOS \u2014 Cancer Staging",
+  "short_name": "OncOS",
   "description": "Solid-tumour staging reference (personal use)",
   "start_url": "./index.html",
   "scope": "./",
