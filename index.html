@@ -24,6 +24,8 @@
   .brand h1 { margin: 0; border-left: 3px solid var(--accent); padding-left: 11px; font-weight: 700; }
   .wm { font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; letter-spacing: 1px; color: var(--ink); white-space: nowrap; }
   .wm .os { color: var(--accent); }
+  .homelink { text-decoration: none; color: inherit; display: inline-block; }
+  .homelink:hover .wm { opacity: .78; }
   .brand h1 .wm { font-size: 22px; }
   .brand p { margin: 7px 0 0 14px; color: var(--muted); font-size: 11px; }
   .navsec { margin-top: 6px; }
@@ -222,7 +224,7 @@
 <div class="app">
   <aside>
     <div class="brand">
-      <h1 aria-label="OncOS"><span class="wm">Onc<span class="os">OS</span></span></h1>
+      <h1 aria-label="OncOS"><a class="homelink" href="https://jonanze.github.io/oncos/" title="OncOS Clinical Hub"><span class="wm">Onc<span class="os">OS</span></span></a></h1>
       <p>Cancer Staging</p>
     </div>
     <div class="allbtn"><a id="showall">All cancers</a></div>
@@ -232,7 +234,7 @@
     <div class="mobilebar">
       <button id="navtoggle" class="navtoggle" aria-label="Open menu" title="Menu">&#9776;</button>
       <div class="mbrand">
-        <span class="wm">Onc<span class="os">OS</span></span>
+        <a class="homelink" href="https://jonanze.github.io/oncos/" title="OncOS Clinical Hub"><span class="wm">Onc<span class="os">OS</span></span></a>
         <span class="mtag">Cancer Staging</span>
       </div>
     </div>
